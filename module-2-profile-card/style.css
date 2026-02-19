@@ -1,0 +1,45 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: f4f4f4;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    margin: 80px;
+    background-color: ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.role{
+    font-size: 15px;
+    color: gray;
+}
+.description{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+}
+.card:hover{
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
